@@ -5,7 +5,7 @@ async function visualizadorDadosGlobais(){
     const dados = await res.json()
     console.log(dados)
     const paragrafo =document.createElement('p');
-    
+    //*cria um elemento<p> no HTML;
     paragrafo.classList.add('graficos-texto')
 }
 visualizadorDadosGlobais();
